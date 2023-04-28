@@ -5,6 +5,10 @@ import scapy.arch
 import time
 import threading
 
+# создание списка для хранения временных меток и количества захваченных пакетов
+packet_count = []
+timestamps = []
+
 interfaces = scapy.arch.get_if_list()
 
 # функция, которая будет вызываться для каждого перехваченного пакета
@@ -47,16 +51,24 @@ stop_sniffing = False
 
 def stop_capture():
     global stop_sniffing
-    time.sleep(30)
+    time.sleep(5)
     stop_sniffing = True
 
 thread = threading.Thread(target=stop_capture)
 thread.start()
 
-sniffer = AsyncSniffer(iface='Беспроводная сеть', prn=handle_packet)
+# определение выбора пользователя для использования фильтра или нет
+use_filter = input("Использовать фильтр? (y/n): ")
+if use_filter.lower() == "y":
+    # задать фильтр для сниффера
+    filter_str = input("Введите строку фильтрации: ")
+    sniffer = AsyncSniffer(iface='Беспроводная сеть', prn=handle_packet, filter=filter_str)
+else:
+    sniffer = AsyncSniffer(iface='Беспроводная сеть', prn=handle_packet)
+    
 sniffer.start()
 
 while not stop_sniffing:
     time.sleep(1)
 
-sniffer.stop()
+sniffer.stop_sniffing()
