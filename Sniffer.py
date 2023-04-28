@@ -1,3 +1,4 @@
+import tkinter as tk
 from scapy.layers.l2 import Ether
 from scapy.layers.inet import IP, TCP
 from scapy.all import *
@@ -5,11 +6,27 @@ import scapy.arch
 import time
 import threading
 
-# создание списка для хранения временных меток и количества захваченных пакетов
-packet_count = []
-timestamps = []
+# функция для обработки события нажатия кнопки "Start"
+def start_sniffing():
+    global stop_sniffing, sniffer, use_filter_var, filter_var
+    stop_sniffing = False
+    
+    use_filter = use_filter_var.get()
+    if use_filter:
+        # задать фильтр для сниффера
+        filter_str = filter_var.get()
+        sniffer = AsyncSniffer(iface='Беспроводная сеть', prn=handle_packet, filter=filter_str)
+    else:
+        sniffer = AsyncSniffer(iface='Беспроводная сеть', prn=handle_packet)
+    
+    sniffer.start()
 
-interfaces = scapy.arch.get_if_list()
+# функция для обработки события нажатия кнопки "Stop"
+def stop_sniffing_func():
+    global stop_sniffing, sniffer
+    stop_sniffing = True
+    if 'sniffer' in globals():
+        sniffer.stop()
 
 # функция, которая будет вызываться для каждого перехваченного пакета
 def handle_packet(packet):
@@ -37,38 +54,48 @@ def handle_packet(packet):
             packet_length = len(packet)
 
             # вывести информацию о пакете
-            print('Source IP: ' + str(s_addr) + ' Destination IP: ' + str(d_addr) +
-                  ' Source Port: ' + str(source_port) + ' Destination Port: ' + str(dest_port) +
-                  ' Sequence: ' + str(sequence) + ' Acknowledgement: ' + str(acknowledgement) +
-                  ' TCP header length: ' + str(tcph_length))
+            packet_info = f'Source IP: {s_addr} Destination IP: {d_addr} ' \
+                          f'Source Port: {source_port} Destination Port: {dest_port} ' \
+                          f'Sequence: {sequence} Acknowledgement: {acknowledgement} ' \
+                          f'TCP header length: {tcph_length}'
+            print(packet_info)
 
             # записать информацию о пакете в файл
             with open("sniffer_output.txt", "a") as f:
-                f.write(f"Source IP: {s_addr} Source Port: {source_port} Destination IP: {d_addr} Destination Port: {dest_port} Packet Length: {packet_length}\n")
+                f.write(f"{packet_info}\n")
 
-# начать сниффинг сетевого трафика на выбранном интерфейсе
-stop_sniffing = False
+# создание GUI
+root = tk.Tk()
+root.title("Packet Sniffer")
 
-def stop_capture():
-    global stop_sniffing
-    time.sleep(5)
-    stop_sniffing = True
+# создание метки и поля ввода для фильтра
+use_filter_var = tk.BooleanVar()
+use_filter_var.set(False)
+use_filter_checkbutton = tk.Checkbutton(root, text="Use Filter", variable=use_filter_var)
+use_filter_checkbutton.grid(row=0, column=0)
 
-thread = threading.Thread(target=stop_capture)
-thread.start()
+filter_label = tk.Label(root, text="Filter:")
+filter_label.grid(row=0, column=1)
+filter_var = tk.StringVar()
+filter_entry = tk.Entry(root, textvariable=filter_var, state='disabled')
+filter_entry.grid(row=0, column=2)
 
-# определение выбора пользователя для использования фильтра или нет
-use_filter = input("Использовать фильтр? (y/n): ")
-if use_filter.lower() == "y":
-    # задать фильтр для сниффера
-    filter_str = input("Введите строку фильтрации: ")
-    sniffer = AsyncSniffer(iface='Беспроводная сеть', prn=handle_packet, filter=filter_str)
-else:
-    sniffer = AsyncSniffer(iface='Беспроводная сеть', prn=handle_packet)
-    
-sniffer.start()
+# функция для включения/выключения поля ввода фильтра в зависимости от состояния флажка "Use Filter"
+def toggle_filter_entry():
+    if use_filter_var.get():
+        filter_entry.config(state='normal')
+    else:
+        filter_entry.config(state='disabled')
 
-while not stop_sniffing:
-    time.sleep(1)
+# добавление обработчика события на изменение состояния флажка "Use Filter"
+use_filter_var.trace('w', lambda name, index, mode, use_filter_var=use_filter_var: toggle_filter_entry())
 
-sniffer.stop_sniffing()
+# создание кнопок "Start" и "Stop"
+start_button = tk.Button(root, text="Start", command=start_sniffing)
+start_button.grid(row=1, column=0)
+
+stop_button = tk.Button(root, text="Stop", command=stop_sniffing_func)
+stop_button.grid(row=1, column=1)
+
+# запуск главного цикла обработки событий
+root.mainloop()
