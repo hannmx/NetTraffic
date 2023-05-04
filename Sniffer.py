@@ -1,5 +1,5 @@
 import tkinter as tk
-from scapy.layers.l2 import Ether
+from scapy.layers.l2 import Ether, ARP
 from scapy.layers.inet import IP, TCP, UDP, ICMP
 from scapy.all import *
 import datetime
@@ -172,6 +172,35 @@ def handle_packet(packet):
             # записать информацию о пакете в файл
             with open("sniffer_output.txt", "a") as f:
                 f.write(f"{packet_info}\n")
+    elif eth_protocol == 0x0806:
+        # извлечь заголовок ARP
+        arph = packet[ARP]
+        opcode = arph.op
+        s_mac = arph.hwsrc
+        s_ip = arph.psrc
+        d_mac = arph.hwdst
+        d_ip = arph.pdst
+
+        # проверить, содержит ли пакет небезопасный трафик
+        unsafe_traffic = False
+        for keyword in keywords:
+            if keyword in str(packet):
+                unsafe_traffic = True
+                break
+
+        # если пакет содержит небезопасный трафик, выведем предупреждение
+        if unsafe_traffic:
+            messagebox.showwarning("Unsafe Traffic Detected", "!!! WARNING: Unsafe traffic detected !!!")
+
+        # вывести информацию о пакете
+        packet_info = f'Source MAC: {s_mac} Destination MAC: {d_mac} ' \
+                    f'Source IP: {s_ip} Destination IP: {d_ip} ' \
+                    f'ARP opcode: {opcode}'
+        print(packet_info)
+
+        # записать информацию о пакете в файл
+        with open("sniffer_output.txt", "a") as f:
+            f.write(f"{packet_info}\n")
 
 # создаем метку для вывода сообщения
 label = tk.Label(root, text="Анализирую пакеты...")

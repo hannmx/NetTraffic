@@ -8,125 +8,103 @@ Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destinati
 Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destination Port: 443 Sequence: 3672764921 Acknowledgement: 2423681589 TCP header length: 5
 Source IP: 13.89.179.8 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 59019 Sequence: 2423681589 Acknowledgement: 3672765079 TCP header length: 5
 Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destination Port: 443 Sequence: 3672765079 Acknowledgement: 2423681640 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destination Port: 443 Sequence: 3672766519 Acknowledgement: 2423681640 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destination Port: 443 Sequence: 3672767959 Acknowledgement: 2423681640 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 57929 Destination Port: 8009 Sequence: 4127087712 Acknowledgement: 1703938216 TCP header length: 5
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 57929 Sequence: 1703938216 Acknowledgement: 4127087822 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 57929 Destination Port: 8009 Sequence: 4127087822 Acknowledgement: 1703938326 TCP header length: 5
-Source IP: 13.89.179.8 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 59019 Sequence: 2423681640 Acknowledgement: 3672769062 TCP header length: 5
-Source IP: 13.89.179.8 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 59019 Sequence: 2423681640 Acknowledgement: 3672769062 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destination Port: 443 Sequence: 3672769062 Acknowledgement: 2423682113 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destination Port: 443 Sequence: 3672769062 Acknowledgement: 2423682113 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 13.89.179.8 Source Port: 59019 Destination Port: 443 Sequence: 3672769093 Acknowledgement: 2423682113 TCP header length: 5
-Source IP: 13.89.179.8 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 59019 Sequence: 2423682113 Acknowledgement: 3672769094 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 54410 Destination Port: 8009 Sequence: 2474205987 Acknowledgement: 2773726232 TCP header length: 5
-Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 54410 Sequence: 2773726232 Acknowledgement: 2474206097 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 54410 Destination Port: 8009 Sequence: 2474206097 Acknowledgement: 2773726342 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 64.233.164.188 Source Port: 56627 Destination Port: 5228 Sequence: 988192843 Acknowledgement: 831616984 TCP header length: 5
-Source IP: 64.233.164.188 Destination IP: 192.168.1.12 Source Port: 5228 Destination Port: 56627 Sequence: 831616984 Acknowledgement: 988192844 TCP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 217 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 120 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 157 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 157 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 157 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 217 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 120 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 346 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 346 UDP header length: 8
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 502 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 192.168.1.1 Source Port: 54437 Destination Port: 53 Length: 58 UDP header length: 8
+Source IP: 192.168.1.1 Destination IP: 192.168.1.12 Source Port: 53 Destination Port: 54437 Length: 178 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473008 Acknowledgement: 0 TCP header length: 8
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493209987 Acknowledgement: 2775473009 TCP header length: 8
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473009 Acknowledgement: 1493209988 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473009 Acknowledgement: 1493209988 TCP header length: 5
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493214368 Acknowledgement: 2775473526 TCP header length: 5
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493209988 Acknowledgement: 2775473526 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473526 Acknowledgement: 1493209988 TCP header length: 8
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473526 Acknowledgement: 1493211448 TCP header length: 8
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493211448 Acknowledgement: 2775473526 TCP header length: 5
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493212908 Acknowledgement: 2775473526 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473526 Acknowledgement: 1493212908 TCP header length: 8
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473526 Acknowledgement: 1493214490 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473526 Acknowledgement: 1493214490 TCP header length: 5
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 120 UDP header length: 8
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493214490 Acknowledgement: 2775473684 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473684 Acknowledgement: 1493214541 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775473684 Acknowledgement: 1493214541 TCP header length: 5
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493214541 Acknowledgement: 2775474766 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 62656 Destination Port: 8009 Sequence: 3349978727 Acknowledgement: 4185776687 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 62657 Destination Port: 8009 Sequence: 1131571623 Acknowledgement: 3306776026 TCP header length: 5
+Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 62657 Sequence: 3306776026 Acknowledgement: 1131571733 TCP header length: 5
+Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 62656 Sequence: 4185776687 Acknowledgement: 3349978837 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 62656 Destination Port: 8009 Sequence: 3349978837 Acknowledgement: 4185776797 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 62657 Destination Port: 8009 Sequence: 1131571733 Acknowledgement: 3306776136 TCP header length: 5
+Source IP: 23.106.56.38 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 63772 Sequence: 1679428023 Acknowledgement: 3893221014 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 23.106.56.38 Source Port: 63772 Destination Port: 436 Sequence: 3893221014 Acknowledgement: 1679428077 TCP header length: 5
+Source IP: 23.106.56.38 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 63772 Sequence: 1679428077 Acknowledgement: 3893221072 TCP header length: 5
+Source IP: 192.168.1.3 Destination IP: 224.0.0.251 Source Port: 5353 Destination Port: 5353 Length: 133 UDP header length: 8
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493214541 Acknowledgement: 2775474766 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775474766 Acknowledgement: 1493214974 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775474766 Acknowledgement: 1493214974 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 52.168.112.66 Source Port: 63942 Destination Port: 443 Sequence: 2775474797 Acknowledgement: 1493214974 TCP header length: 5
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493214974 Acknowledgement: 2775474798 TCP header length: 5
+Source IP: 52.168.112.66 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 63942 Sequence: 1493214974 Acknowledgement: 2775474766 TCP header length: 5
+Source IP: 192.168.1.5 Destination IP: 239.255.255.250 Source Port: 1902 Destination Port: 1902 Length: 249 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 62657 Destination Port: 8009 Sequence: 1131571733 Acknowledgement: 3306776136 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 62656 Destination Port: 8009 Sequence: 3349978837 Acknowledgement: 4185776797 TCP header length: 5
+Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 62656 Sequence: 4185776797 Acknowledgement: 3349978947 TCP header length: 5
 Source IP: 192.168.1.2 Destination IP: 239.255.255.251 Source Port: 10101 Destination Port: 10101 Length: 51 UDP header length: 8
-Source IP: 192.168.1.2 Destination IP: 224.0.0.250 Source Port: 10101 Destination Port: 10101 Length: 51 UDP header length: 8
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138186684 Acknowledgement: 3049019894 TCP header length: 5
-Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 60071 Sequence: 3049019894 Acknowledgement: 4138186794 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138186794 Acknowledgement: 3049020004 TCP header length: 5
-Source IP: 213.180.204.179 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 55306 Sequence: 1100929312 Acknowledgement: 1868563726 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 213.180.204.179 Source Port: 55306 Destination Port: 443 Sequence: 1868563726 Acknowledgement: 1100929394 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935864561 Acknowledgement: 640088878 TCP header length: 5
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640088878 Acknowledgement: 3935864671 TCP header length: 5
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640088878 Acknowledgement: 3935864671 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935864671 Acknowledgement: 640088988 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935864671 Acknowledgement: 640088988 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935864671 Acknowledgement: 640088988 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935864671 Acknowledgement: 640088988 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 209.85.233.188 Source Port: 55273 Destination Port: 5228 Sequence: 389483350 Acknowledgement: 1585482030 TCP header length: 5
-Source IP: 209.85.233.188 Destination IP: 192.168.1.12 Source Port: 5228 Destination Port: 55273 Sequence: 1585482030 Acknowledgement: 389483351 TCP header length: 8
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935864671 Acknowledgement: 640088988 TCP header length: 5
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640088988 Acknowledgement: 3935864781 TCP header length: 8
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640088988 Acknowledgement: 3935864781 TCP header length: 8
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640088988 Acknowledgement: 3935864781 TCP header length: 5
-Source IP: 198.16.66.196 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 56276 Sequence: 2911108243 Acknowledgement: 4271097937 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 198.16.66.196 Source Port: 56276 Destination Port: 436 Sequence: 4271097937 Acknowledgement: 2911108298 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935864781 Acknowledgement: 640089098 TCP header length: 5
-Source IP: 198.16.66.196 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 56276 Sequence: 2911108298 Acknowledgement: 4271097996 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138186904 Acknowledgement: 3049020114 TCP header length: 5
-Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 60071 Sequence: 3049020114 Acknowledgement: 4138187014 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138187014 Acknowledgement: 3049020224 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243921918 Acknowledgement: 1811297034 TCP header length: 8
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811297034 Acknowledgement: 3243921919 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811297034 Acknowledgement: 3243921919 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243921919 Acknowledgement: 1811297551 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243923379 Acknowledgement: 1811297551 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811297551 Acknowledgement: 3243924839 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243926299 Acknowledgement: 1811297551 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811297551 Acknowledgement: 3243924839 TCP header length: 8
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243924839 Acknowledgement: 1811297551 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811297551 Acknowledgement: 3243926421 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811297551 Acknowledgement: 3243926421 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243926421 Acknowledgement: 1811297709 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811297709 Acknowledgement: 3243926472 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811299149 Acknowledgement: 3243926472 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811300589 Acknowledgement: 3243926472 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811302029 Acknowledgement: 3243926472 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811303469 Acknowledgement: 3243926472 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243926472 Acknowledgement: 1811302029 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243926472 Acknowledgement: 1811303469 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243926472 Acknowledgement: 1811304601 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811304601 Acknowledgement: 3243926945 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811304601 Acknowledgement: 3243926945 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56438 Destination Port: 443 Sequence: 1811304632 Acknowledgement: 3243926945 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243926945 Acknowledgement: 1811304601 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56438 Sequence: 3243926945 Acknowledgement: 1811304633 TCP header length: 5
-Source IP: 198.16.66.196 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 56434 Sequence: 2214023149 Acknowledgement: 2555305303 TCP header length: 8
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872151 Acknowledgement: 640096468 TCP header length: 5
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640096468 Acknowledgement: 3935872261 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872261 Acknowledgement: 640096578 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138195374 Acknowledgement: 3049028584 TCP header length: 5
-Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 60071 Sequence: 3049028584 Acknowledgement: 4138195484 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138195484 Acknowledgement: 3049028694 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872261 Acknowledgement: 640096578 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872261 Acknowledgement: 640096578 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872261 Acknowledgement: 640096578 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872261 Acknowledgement: 640096578 TCP header length: 5
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640096578 Acknowledgement: 3935872371 TCP header length: 8
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640096578 Acknowledgement: 3935872371 TCP header length: 8
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640096578 Acknowledgement: 3935872371 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872371 Acknowledgement: 640096688 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138195484 Acknowledgement: 3049028694 TCP header length: 5
-Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 60071 Sequence: 3049028694 Acknowledgement: 4138195594 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138195594 Acknowledgement: 3049028804 TCP header length: 5
-Source IP: 198.16.66.196 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 56250 Sequence: 2561739055 Acknowledgement: 1163839119 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 198.16.66.196 Source Port: 56250 Destination Port: 436 Sequence: 1163839119 Acknowledgement: 2561739122 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095054545 Acknowledgement: 0 TCP header length: 8
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52273739 Acknowledgement: 4095054546 TCP header length: 8
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095054546 Acknowledgement: 52273740 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095054546 Acknowledgement: 52273740 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52278120 Acknowledgement: 4095055063 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52273740 Acknowledgement: 4095055063 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095055063 Acknowledgement: 52273740 TCP header length: 8
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095055063 Acknowledgement: 52275200 TCP header length: 8
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52275200 Acknowledgement: 4095055063 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52276660 Acknowledgement: 4095055063 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095055063 Acknowledgement: 52276660 TCP header length: 8
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095055063 Acknowledgement: 52278242 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095055063 Acknowledgement: 52278242 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52278242 Acknowledgement: 4095055221 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872371 Acknowledgement: 640096688 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095055221 Acknowledgement: 52278293 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095056661 Acknowledgement: 52278293 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095058101 Acknowledgement: 52278293 TCP header length: 5
-Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 56270 Sequence: 640096688 Acknowledgement: 3935872481 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 213.180.204.179 Source Port: 55306 Destination Port: 443 Sequence: 1868563725 Acknowledgement: 1100929886 TCP header length: 5
-Source IP: 213.180.204.179 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 55306 Sequence: 1100929886 Acknowledgement: 1868563726 TCP header length: 8
-Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 56270 Destination Port: 8009 Sequence: 3935872481 Acknowledgement: 640096798 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52278293 Acknowledgement: 4095058101 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52278293 Acknowledgement: 4095059214 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095059214 Acknowledgement: 52278766 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095059214 Acknowledgement: 52278766 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 20.42.65.85 Source Port: 56439 Destination Port: 443 Sequence: 4095059245 Acknowledgement: 52278766 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52278766 Acknowledgement: 4095059214 TCP header length: 5
-Source IP: 20.42.65.85 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 56439 Sequence: 52278766 Acknowledgement: 4095059246 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138195594 Acknowledgement: 3049028804 TCP header length: 5
-Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 60071 Sequence: 3049028804 Acknowledgement: 4138195704 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138195704 Acknowledgement: 3049028914 TCP header length: 5
-Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 60071 Destination Port: 8009 Sequence: 4138199114 Acknowledgement: 3049032324 TCP header length: 5
-Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 60071 Sequence: 3049032324 Acknowledgement: 4138199224 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 23.106.56.38 Source Port: 62843 Destination Port: 436 Sequence: 806687765 Acknowledgement: 2570285335 TCP header length: 5
+Source IP: 23.106.56.38 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 62843 Sequence: 2570285335 Acknowledgement: 806688040 TCP header length: 5
+Source IP: 23.106.56.38 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 62843 Sequence: 2570285335 Acknowledgement: 806688040 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 23.106.56.38 Source Port: 62843 Destination Port: 436 Sequence: 806688040 Acknowledgement: 2570285630 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 62657 Destination Port: 8009 Sequence: 1131573933 Acknowledgement: 3306778336 TCP header length: 5
+Source IP: 192.168.1.2 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 62657 Sequence: 3306778336 Acknowledgement: 1131574043 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.2 Source Port: 62657 Destination Port: 8009 Sequence: 1131574043 Acknowledgement: 3306778446 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 62656 Destination Port: 8009 Sequence: 3349981037 Acknowledgement: 4185778997 TCP header length: 5
+Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 62656 Sequence: 4185778997 Acknowledgement: 3349981147 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 62656 Destination Port: 8009 Sequence: 3349981147 Acknowledgement: 4185779107 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 23.106.56.38 Source Port: 63772 Destination Port: 436 Sequence: 3893221130 Acknowledgement: 1679428132 TCP header length: 5
+Source IP: 23.106.56.38 Destination IP: 192.168.1.12 Source Port: 436 Destination Port: 63772 Sequence: 1679428132 Acknowledgement: 3893221131 TCP header length: 8
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 60519 Destination Port: 50002 Length: 200 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 60519 Destination Port: 50002 Length: 191 UDP header length: 8
+Source IP: 66.22.217.98 Destination IP: 192.168.1.12 Source Port: 50002 Destination Port: 60519 Length: 141 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 60519 Destination Port: 50002 Length: 52 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 60519 Destination Port: 50002 Length: 193 UDP header length: 8
+Source IP: 66.22.217.98 Destination IP: 192.168.1.12 Source Port: 50002 Destination Port: 60519 Length: 226 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 60519 Destination Port: 50002 Length: 193 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 60519 Destination Port: 50002 Length: 52 UDP header length: 8
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 60519 Destination Port: 50002 Length: 192 UDP header length: 8Source IP: 192.168.1.12 Destination IP: 162.159.137.234 Source Port: 49875 Destination Port: 443 Sequence: 2699547782 Acknowledgement: 2677991843 TCP header length: 5
+Source IP: 162.159.137.234 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 49875 Sequence: 2677991843 Acknowledgement: 2699547868 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 162.159.137.234 Source Port: 49875 Destination Port: 443 Sequence: 2699547868 Acknowledgement: 2677991843 TCP header length: 5
+Source IP: 162.159.137.234 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 49875 Sequence: 2677991843 Acknowledgement: 2699547954 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 13.107.5.93 Source Port: 50757 Destination Port: 443 Sequence: 3954782800 Acknowledgement: 0 TCP header length: 8
+Source IP: 13.107.5.93 Destination IP: 192.168.1.12 Source Port: 443 Destination Port: 50757 Sequence: 3871862479 Acknowledgement: 3954782801 TCP header length: 8
+Source IP: 192.168.1.12 Destination IP: 13.107.5.93 Source Port: 50757 Destination Port: 443 Sequence: 3954782801 Acknowledgement: 3871862480 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 13.107.5.93 Source Port: 50757 Destination Port: 443 Sequence: 3954782801 Acknowledgement: 3871862480 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 66.22.217.98 Source Port: 59012 Destination Port: 50002 Length: 52 UDP header length: 8
+Source MAC: c0:e4:34:12:ab:31 Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.12 Destination IP: 192.168.1.67 ARP opcode: 1
+Source MAC: c0:e4:34:12:ab:31 Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.12 Destination IP: 192.168.1.67 ARP opcode: 1
+Source MAC: c0:e4:34:12:ab:31 Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.12 Destination IP: 192.168.1.67 ARP opcode: 1
+Source MAC: c0:e4:34:12:ab:31 Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.12 Destination IP: 192.168.1.67 ARP opcode: 1
+Source MAC: 4c:eb:bd:86:5d:ef Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.5 Destination IP: 192.168.1.12 ARP opcode: 1
+Source MAC: c0:e4:34:12:ab:31 Destination MAC: 4c:eb:bd:86:5d:ef Source IP: 192.168.1.12 Destination IP: 192.168.1.5 ARP opcode: 2
+Source MAC: fc:44:9f:5e:fc:9a Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.2 Destination IP: 192.168.1.12 ARP opcode: 1
+Source MAC: c0:e4:34:12:ab:31 Destination MAC: fc:44:9f:5e:fc:9a Source IP: 192.168.1.12 Destination IP: 192.168.1.2 ARP opcode: 2
+Source MAC: 4c:eb:bd:86:5d:ef Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.5 Destination IP: 192.168.1.12 ARP opcode: 1
+Source MAC: c0:e4:34:12:ab:31 Destination MAC: 4c:eb:bd:86:5d:ef Source IP: 192.168.1.12 Destination IP: 192.168.1.5 ARP opcode: 2
+Source MAC: 08:9a:c7:e8:89:42 Destination MAC: 00:00:00:00:00:00 Source IP: 192.168.1.1 Destination IP: 192.168.1.12 ARP opcode: 1
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 58770 Destination Port: 8009 Sequence: 674297437 Acknowledgement: 3606621544 TCP header length: 5
+Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 58770 Sequence: 3606621544 Acknowledgement: 674297547 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 58770 Destination Port: 8009 Sequence: 674297547 Acknowledgement: 3606621654 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 58770 Destination Port: 8009 Sequence: 674297547 Acknowledgement: 3606621654 TCP header length: 5
+Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 58770 Sequence: 3606621654 Acknowledgement: 674297657 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 58770 Destination Port: 8009 Sequence: 674297657 Acknowledgement: 3606621764 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 58770 Destination Port: 8009 Sequence: 674297657 Acknowledgement: 3606621764 TCP header length: 5
+Source IP: 192.168.1.5 Destination IP: 192.168.1.12 Source Port: 8009 Destination Port: 58770 Sequence: 3606621764 Acknowledgement: 674297767 TCP header length: 5
+Source IP: 192.168.1.12 Destination IP: 192.168.1.5 Source Port: 58770 Destination Port: 8009 Sequence: 674297767 Acknowledgement: 3606621874 TCP header length: 5
